@@ -3,6 +3,6 @@ const
   app = require('express'),
   PORT = 3000
 
-app.listen(PORT, (err) => {
-  console.log(`Server running on ${PORT}`)
-})
+  app.listen(PORT, (err) => {
+    console.log(`Server running on ${PORT}`)
+  })
